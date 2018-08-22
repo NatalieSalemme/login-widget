@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  height: 400px;
+  width: 27%;
+  margin: auto;
+  margin-top: 14em;
+  /* opacity: 0.75; */
+}
+body {
+background-image: linear-gradient(#314755
+, #26a0da);
+height: 100vh;
+}
+#username,
+#password {
+  height: 1.6em;
+  width: 14em;
+  background-color: white;
+  z-index: 3;
+}
+#submit {
+  margin: 2em 0 -2em 0;
+  /* padding-top: 2em; */
+  height: 3em;
+  width: 100%;
+  font-size: 25px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+}
