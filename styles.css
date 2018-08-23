@@ -4,36 +4,49 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
-  height: 400px;
-  width: 27%;
+  background-color: white;
+  height: 410px;
+  width: 23%;
+  min-width: 240px;
   margin: auto;
   margin-top: 14em;
-  /* opacity: 0.75; */
+  border-radius: 25px 25px 0 0;
 }
 body {
-background-image: linear-gradient(#314755
-, #26a0da);
+background-image: linear-gradient(#314755, #26a0da);
 height: 100vh;
+}
+h1 {
+  display: block;
+  border-bottom: 1px solid black;
 }
 #username,
 #password {
-  height: 1.6em;
+  height: 2em;
   width: 14em;
   background-color: white;
   z-index: 3;
 }
+#username:hover,
+#password:hover {
+  border: 2px solid #42aaf4;
+}
 #submit {
   margin: 2em 0 -2em 0;
-  /* padding-top: 2em; */
-  height: 3em;
+  height: 90px;
   width: 100%;
   font-size: 25px;
+  background-image: linear-gradient(to bottom left, #f2768b, #f9accf);
+  border-radius: 0 0 25px 25px;
 }
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
+#submit:hover {
+  background-image: linear-gradient(to bottom right, #f2768b, #f9accf);
+}
+.check-box {
+  margin-left: -3.2em;
+  margin-top: 1em;
+}
+#forgot {
+  margin-top: .8em;
+  margin-right: 7em;
 }
